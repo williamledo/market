@@ -10,7 +10,7 @@ import javax.persistence.ManyToOne;
 import com.williamledo.market.entities.Order;
 import com.williamledo.market.entities.Product;
 
-@Embeddable
+@Embeddable //Anotation para uma classe auxiliar de chave primária composta
 public class OrderItemPK implements Serializable {
 
 	private static final long serialVersionUID = 1L;
